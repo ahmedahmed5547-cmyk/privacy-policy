@@ -1,27 +1,15 @@
-# Privacy Policy — سياسة الخصوصية
-**IPTV and Video Player (`com.pureplayer.video`)**
-**Effective Date / تاريخ السريان:** November 18, 2026
-**Developer / المطور:** Apex Vibe
-**Contact Email / البريد الإلكتروني للتواصل:** ahmedahmed5547@gmail.com
-
-## 1. Overview (نظرة عامة)
-**IPTV and Video Player** ("the App", package `com.pureplayer.video`) is a local media and network stream player developed for Android devices. We respect your privacy and are committed to protecting it. The App operates locally on your device without collecting, storing on external servers, or selling any personal data.
-تطبيق **IPTV and Video Player** ("التطبيق"، حزمة `com.pureplayer.video`) هو مشغل وسائط وبث شبكي محلي مخصص لأجهزة أندرويد. نحن نحترم خصوصيتك ونلتزم بحمايتها بالكامل؛ حيث يعمل التطبيق محلياً على جهازك دون جمع أو تخزين أي بيانات شخصية على خوادم خارجية أو مشاركتها مع أي طرف ثالث.
-
-## 2. Permissions & Data Usage (الأذونات واستخدام البيانات)
-- **Media & Storage Access (`READ_MEDIA_VIDEO`, `READ_MEDIA_AUDIO`, `READ_EXTERNAL_STORAGE`):** Scans and plays video and audio files stored locally on your device. No media files leave your device. (قراءة وتشغيل ملفات الفيديو والصوت المحفوظة محلياً على ذاكرة هاتفك فقط دون إرسالها خارج الجهاز).
-- **Internet & Network State (`INTERNET`, `ACCESS_NETWORK_STATE`):** Connects directly to streaming URLs, M3U playlists, or Xtream Codes servers that you manually configure. (الاتصال المباشر بروابط البث أو قوائم M3U أو خوادم Xtream Codes التي يدخلها المستخدم يدوياً).
-- **Local Security & Encryption (`AndroidKeyStore`, `AES/GCM/NoPadding`, `PBKDF2WithHmacSHA256`):** Encrypts user-entered IPTV credentials and PIN locks locally inside the device's hardware keystore. (تشفير بيانات الدخول وأرقام PIN محلياً داخل نظام الحماية الداخلي للجهاز).
-
-## 3. Data Collection & Retention (جمع البيانات والاحتفاظ بها)
-- **No Personal Information Collected:** We do not require an account and do not collect your name, email address, phone number, location, or device identifiers on any external server. (لا يطلب التطبيق إنشاء حساب ولا يجمع أي بيانات شخصية على خوادم خارجية).
-- **Data Deletion:** All data is stored locally on your device. You can delete all stored playlists, credentials, and settings at any time by clearing the App's storage in Android Settings (Settings - Apps - IPTV and Video Player - Storage - Clear Data) or uninstalling the App. (يمكنك حذف جميع البيانات المحفوظة محلياً في أي وقت عبر مسح بيانات التطبيق من إعدادات الهاتف أو إلغاء تثبيته).
-
-## 4. Third-Party Services & Advertising (خدمات الأطراف الثالثة والإعلانات)
-The App does not integrate third-party tracking SDKs or display third-party advertisements in the current release. Standard system services provided by Google Play Services are governed by Google's Privacy Policy. (لا يتضمن التطبيق أي برمجيات تتبع أو إعلانات في الإصدار الحالي، وتخضع خدمات Google Play لسياسة خصوصية شركة Google).
-
-## 5. Children's Privacy (خصوصية الأطفال)
-**IPTV and Video Player** does not knowingly collect any personal information from children under the age of 13. (لا يجمع تطبيق **IPTV and Video Player** أي بيانات شخصية من الأطفال دون سن 13 عاماً).
-
-## 6. Contact Us (التواصل معنا)
-Email / البريد الإلكتروني: ahmedahmed5547@gmail.com
+VEXO Player — IPTV and Video player (`com.pureplayer.video`)
+Flagship 4K Cinema & Media Player for Android (`minSdk 24` / `targetSdk 34` / `compileSdk 34`), built with Kotlin, Room, and LibVLC (`arm64-v8a`).
+Key Capabilities
+Video Engine: `HW+` / `HW` / `SW` live decoder switcher, HDR10/HLG tonemapping, YouTube-style Auto-PiP with instant audio stop on close, and split long-press gestures.
+Audio Studio: 7 acoustic sound profiles + 5-Band Graphic Equalizer & Pre-Amp Gain.
+Subtitles: Online subtitle search across 15 world languages, draggable & pinch-to-zoom overlay, ASS/SSA/SRT/VTT support, and millisecond sync.
+Playlist Player (M3U / Xtream): Media player for user-supplied M3U/M3U8 and Xtream playlists backed by Room SQLite (`pure_video_iptv_room.db`) with instant section-scoped live search. Does not provide or bundle any media content.
+Privacy & Themes: `PBKDF2WithHmacSHA256` (`>= 100,000` iterations) + brute-force lockout + `AndroidKeyStore` Biometric Private Vault, Light/Dark/System themes, and 8 dynamic Material You palettes.
+Privacy Policy Links
+GitHub Pages (HTML): https://ahmedahmed5547-cmyk.github.io/Video-player/privacy-policy.html
+GitHub Repository (Markdown): https://github.com/ahmedahmed5547-cmyk/Video-player/blob/main/PRIVACY_POLICY.md
+Developer
+Ahmed M Moumen (`AHMEDAHMED5547@GMAIL.COM`)
+GitHub Repository: ahmedahmed5547-cmyk/Video-player
+Current Version: `v90.08` (`versionCode = 9008`)
